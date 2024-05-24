@@ -12,7 +12,7 @@ const Home = () => {
             </span>{' '}
             RUDRA SPA BEST SPA IN INDIA.
           </h1>
-          <p className=' text-lg font-light mt-5 w-3/4 text-gray-500'>
+          <p className=' text-md font-light font-Poppins mt-5 w-3/4 text-gray-500'>
             Inspired by the time honoured therapies for beauty and wellness,
             Rudra Spa offers you an uplifting ambience and rejuvenating
             therapies that will refresh your body and mind holistically.
@@ -26,7 +26,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className='w-1/2'>
+        <div className='w-2/4'>
           <img
             src={BgImg}
             alt=''
