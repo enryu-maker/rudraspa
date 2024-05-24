@@ -18,10 +18,10 @@ const Home = () => {
             therapies that will refresh your body and mind holistically.
           </p>
           <div className='flex items-center gap-5 mt-5'>
-            <button className='uppercase bg-secondary-text-color font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
+            <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
               Explore
             </button>
-            <button className='uppercase bg-secondary-text-color font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
+            <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
               Contact
             </button>
           </div>

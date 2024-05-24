@@ -34,7 +34,7 @@ const Header = () => {
             <NavLink
               key={index}
               to={path}
-              className=' uppercase font-semibold text-sm text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
+              className=' uppercase font-semibold font-Poppins text-sm text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
               {title}
             </NavLink>
           ))}
