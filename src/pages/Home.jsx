@@ -9,7 +9,7 @@ const Home = () => {
           <h1 className=' text-5xl font-semibold text-primary-text-color w-1/2 '>
             WELCOME TO RUDRA SPA BEST SPA IN POWAI
           </h1>
-          <p className=' text-sm mt-5 w-3/4 text-gray-500'>
+          <p className=' text-lg font-light mt-5 w-3/4 text-gray-500'>
             Inspired by the time honoured therapies for beauty and wellness,
             Rudra Spa offers you an uplifting ambience and rejuvenating
             therapies that will refresh your body and mind holistically.
