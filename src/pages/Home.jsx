@@ -9,7 +9,8 @@ const Home = () => {
           <h1 className=' text-5xl font-semibold font-Poppins text-primary-text-color w-1/2 '>
             <span className=' text-secondary-text-color font-bold'>
               WELCOME TO
-            </span>{' '}
+            </span>
+            <br />
             RUDRA SPA BEST SPA IN INDIA.
           </h1>
           <p className=' text-md font-light font-Poppins mt-5 w-3/4 text-gray-500'>
@@ -26,7 +27,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className='w-2/4'>
+        <div className=''>
           <img
             src={BgImg}
             alt=''
