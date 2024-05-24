@@ -4,10 +4,13 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import ContactUs from './pages/ContactUs';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <HashRouter>
+      <Header />
       <Routes>
         <Route
           path='/'
@@ -30,6 +33,7 @@ const App = () => {
           element={<ContactUs />}
         />
       </Routes>
+      <Footer />
     </HashRouter>
   );
 };
