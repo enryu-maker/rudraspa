@@ -4,7 +4,7 @@ import BgImg from '../assets/bg.png';
 const Home = () => {
   return (
     <div className=' bg-primary-bg-color bg-opacity-30'>
-      <div className='flex justify-around items-center space-y-36 h-screen '>
+      <div className='flex justify-around items-center space-y-10 h-screen '>
         <div className='ml-5'>
           <h1 className=' text-5xl font-semibold text-primary-text-color w-1/2 '>
             WELCOME TO RUDRA SPA BEST SPA IN POWAI
