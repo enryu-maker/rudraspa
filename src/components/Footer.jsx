@@ -27,7 +27,7 @@ const OurService = [
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-4 gap-10 min-h-[50vh] bg-primary-bg-color opacity-70 px-5 mt-10'>
+    <div className='grid grid-cols-4 gap-10 min-h-[70vh] bg-primary-bg-color opacity-70 px-5 mt-10'>
       <div className='flex flex-col gap-5 justify-center items-start text-start '>
         <h1 className=' text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
           Important Links
