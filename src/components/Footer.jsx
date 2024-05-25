@@ -84,8 +84,8 @@ const Footer = () => {
             Garden Powai Mumbai – 400076
           </p>
 
-          <p>Phone: +91 7045378510</p>
-          <p>Email: rudraspapowai@gmail.com</p>
+          <p>Phone: +91 90338 35777</p>
+          <p>Email: franchise@rudrahammamspa.in</p>
         </div>
       </div>
     </div>
