@@ -35,9 +35,9 @@ const Header = () => {
         </div>
         <div className=' space-y-5'>
           <div className='flex items-center justify-end gap-5 self-end  '>
-            {NavLinkData.map(({ title, path, index }) => (
+            {NavLinkData.map(({ title, path }) => (
               <NavLink
-                key={index}
+                key={title}
                 to={path}
                 className=' uppercase tracking-widest font-semibold font-Poppins text-sm text-slate-600 hover:text-primary-bg-color active:text-primary-text-color'>
                 {title}
