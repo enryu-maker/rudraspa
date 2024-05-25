@@ -33,7 +33,7 @@ const Header = () => {
             className='w-20 h-20 object-contain'
           />
         </div>
-        <div className=' space-y-5' >
+        <div className=' space-y-5'>
           <div className='flex items-center justify-end gap-5 self-end  '>
             {NavLinkData.map(({ title, path, index }) => (
               <NavLink
@@ -44,13 +44,15 @@ const Header = () => {
               </NavLink>
             ))}
           </div>
-          <motion.p 
-          
-          className=' text-sm font-semibold font-Poppins  text-black '>
-          FOR MASTER FRANCHISE / FRANCHISE INQUIRY CONTACT : PHONE : <span className='text-primary-bg-color'>+91 90338 35777 </span> | EMAIL US : <span className='text-primary-bg-color'>franchise@rudrahammamspa.in</span>
+          <motion.p className=' text-sm font-semibold font-Poppins  text-black '>
+            FOR MASTER FRANCHISE / FRANCHISE INQUIRY CONTACT : PHONE :{' '}
+            <span className='text-primary-bg-color'>+91 90338 35777 </span> |
+            EMAIL US :{' '}
+            <span className='text-primary-bg-color'>
+              franchise@rudrahammamspa.in
+            </span>
           </motion.p>
         </div>
-
       </div>
     </>
   );
