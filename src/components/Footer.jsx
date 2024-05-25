@@ -19,11 +19,15 @@ const OurService = [
     title: 'Ayurvedic Treatments',
     path: '/#',
   },
+  {
+    title: 'Ayurvedic Treatments',
+    path: '/#',
+  },
 ];
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-4 gap-10 min-h-[50vh] bg-primary-bg-color opacity-70 px-5'>
+    <div className='grid grid-cols-4 gap-10 min-h-[50vh] bg-primary-bg-color opacity-70 px-5 mt-10'>
       <div className='flex flex-col gap-5 justify-center items-start text-start '>
         <h1 className=' text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
           Important Links
@@ -32,7 +36,7 @@ const Footer = () => {
           <NavLink
             key={title}
             to={path}
-            className=' uppercase font-semibold font-Poppins text-lg  text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
+            className=' uppercase font-semibold font-Poppins text-lg  text-black hover:text-white'>
             {title}
           </NavLink>
         ))}
@@ -47,7 +51,7 @@ const Footer = () => {
             <NavLink
               key={title}
               to={path}
-              className=' uppercase font-semibold font-Poppins text-lg  text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
+              className=' uppercase font-semibold font-Poppins text-lg  text-black hover:text-white'>
               {title}
             </NavLink>
           ))}
@@ -63,7 +67,7 @@ const Footer = () => {
             <NavLink
               key={title}
               to={path}
-              className=' uppercase font-semibold font-Poppins text-lg  text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
+              className=' uppercase font-semibold font-Poppins text-lg  text-black hover:text-white'>
               {title}
             </NavLink>
           ))}
@@ -73,11 +77,9 @@ const Footer = () => {
         <h1 className=' text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
           Contact us
         </h1>
-        <div className='flex flex-col gap-5 items-start'>
-          <h1 className=' text-secondary-text-color'>
-            Rudra Spa Corporate office
-          </h1>
-          <p className='text-sm '>
+        <div className='flex flex-col gap-5 items-start text-black'>
+          <h1 className='   text-lg'>Rudra Spa Corporate office</h1>
+          <p className='text-md '>
             Adress: Shop No : 122/123 1st Floor Powai Plaza Opp Hiranandani
             Garden Powai Mumbai – 400076
           </p>

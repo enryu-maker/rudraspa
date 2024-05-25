@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo.png';
 import { motion } from 'framer-motion';
-const NavLinkData = [
+export const NavLinkData = [
   { title: 'Home', path: '/' },
   {
     title: 'Services',
