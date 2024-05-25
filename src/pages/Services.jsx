@@ -74,7 +74,7 @@ const ServiceData = [
 
 export default function Services() {
   return (
-    <div className='flex flex-col gap-5 justify-center items-center'>
+    <div className='flex flex-col gap-5 justify-center items-center mb-10'>
       <div className='flex flex-col gap-2 items-center justify-center mt-5'>
         <h1 className='text-2xl font-semibold uppercase text-primary-bg-color font-Poppins'>
           Massage Offered by Rudra Spa
