@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCard = ({ title, description, image }) => {
   return (
     <>
-      <div className='flex flex-col gap-2 w-[350px] shadow-lg rounded-md '>
+      <div className='flex flex-col gap-2 w-[350px] shadow-lg rounded-md hover:scale-105 transition-all ease-linear duration-75'>
         <div>
           <img
             src={image}

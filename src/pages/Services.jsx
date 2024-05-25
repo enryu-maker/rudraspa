@@ -83,7 +83,7 @@ export default function Services() {
           We are offering following massage services…
         </p>
       </div>
-      <div className='grid grid-cols-3 gap-10'>
+      <div className='grid grid-cols-3 gap-10 '>
         {ServiceData.map(({ id, title, description, image }) => (
           <ServiceCard
             key={id}
