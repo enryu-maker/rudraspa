@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo.png';
-
+import { motion } from 'framer-motion';
 const NavLinkData = [
   { title: 'Home', path: '/' },
   {
@@ -13,6 +13,10 @@ const NavLinkData = [
     path: '/about',
   },
   {
+    title: 'Our Branches',
+    path: '/branch',
+  },
+  {
     title: 'Contact',
     path: '/contact',
   },
@@ -21,24 +25,32 @@ const NavLinkData = [
 const Header = () => {
   return (
     <>
-      <div className='flex items-center justify-between px-10 bg-primary-bg-color bg-opacity-30'>
+      <div className='flex items-center justify-between px-10 bg-white sticky top-0 z-50 shadow-md'>
         <div className='flex items-center justify-center p-2'>
           <img
             src={Logo}
             alt='logo'
-            className='w-20 h-20'
+            className='w-20 h-20 object-contain'
           />
         </div>
-        <div className='flex items-center gap-5 '>
-          {NavLinkData.map(({ title, path, index }) => (
-            <NavLink
-              key={index}
-              to={path}
-              className=' uppercase font-semibold font-Poppins text-sm text-slate-600 hover:text-primary-text-color active:text-primary-text-color'>
-              {title}
-            </NavLink>
-          ))}
+        <div className=' space-y-5' >
+          <div className='flex items-center justify-end gap-5 self-end  '>
+            {NavLinkData.map(({ title, path, index }) => (
+              <NavLink
+                key={index}
+                to={path}
+                className=' uppercase tracking-widest font-semibold font-Poppins text-sm text-slate-600 hover:text-primary-bg-color active:text-primary-text-color'>
+                {title}
+              </NavLink>
+            ))}
+          </div>
+          <motion.p 
+          
+          className=' text-sm font-semibold font-Poppins  text-black '>
+          FOR MASTER FRANCHISE / FRANCHISE INQUIRY CONTACT : PHONE : <span className='text-primary-bg-color'>+91 90338 35777 </span> | EMAIL US : <span className='text-primary-bg-color'>franchise@rudrahammamspa.in</span>
+          </motion.p>
         </div>
+
       </div>
     </>
   );

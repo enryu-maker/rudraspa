@@ -6,6 +6,7 @@ import Gallery from './pages/Gallery';
 import ContactUs from './pages/ContactUs';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Branch from './pages/Branch';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
           element={<AboutUs />}
         />
         <Route
-          path='/service'
+          path='/services'
           element={<Services />}
         />
         <Route
@@ -31,6 +32,10 @@ const App = () => {
         <Route
           path='/contact'
           element={<ContactUs />}
+        />
+        <Route
+          path='/branch'
+          element={<Branch />}
         />
       </Routes>
       <Footer />
