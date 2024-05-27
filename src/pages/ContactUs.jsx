@@ -22,7 +22,7 @@ const ContactUs = () => {
           </div>
           <div>
             <input
-              type='number'
+              type='text'
               placeholder='Contact No'
               className='w-full p-3 outline-none border-b border-b-black hover:border-b-primary-bg-color'
             />
@@ -46,7 +46,7 @@ const ContactUs = () => {
         <img
           src={ContactImg}
           alt=''
-          className=' object-cover'
+          className=' object-cover w-5/6 h-screen'
         />
       </div>
     </div>
