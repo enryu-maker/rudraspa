@@ -6,7 +6,7 @@ export const NavLinkData = [
   { title: 'Home', path: '/' },
   {
     title: 'Services',
-    path: '/services',
+    path: '/service',
   },
   {
     title: 'About',

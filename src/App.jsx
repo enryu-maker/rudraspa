@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Branch from './pages/Branch';
+import ServiceSubCategories from './pages/ServiceSubCategories';
 
 const App = () => {
   return (
@@ -22,8 +23,12 @@ const App = () => {
           element={<AboutUs />}
         />
         <Route
-          path='/services'
+          path='/service'
           element={<Services />}
+        />
+        <Route
+          path='/service/:id'
+          element={<ServiceSubCategories />}
         />
         <Route
           path='/gallery'
