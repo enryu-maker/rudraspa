@@ -36,7 +36,7 @@ export default function Branch() {
           Welcome to Rudra Spa
         </h1>
         <p className=' text-xl font-extralight text-gray-700 text-center'>
-          Shop from a wide range of exquisite designs for all occasions.
+          Experience Tranquility at Rudra Spa.
         </p>
       </div>
       <div className='flex flex-col gap-3 items-center justify-center mt-5 '>
