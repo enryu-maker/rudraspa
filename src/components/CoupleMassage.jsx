@@ -1,5 +1,7 @@
 import React from 'react';
 
+//TODO: Add proper css for all the elements
+
 const CoupleMassage = ({ data }) => {
   return (
     <div className='flex flex-wrap gap-5 justify-center items-center py-10'>
