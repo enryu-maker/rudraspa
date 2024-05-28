@@ -106,62 +106,100 @@ export const ServiceData = [
     duration: '60 minutes',
     price: '1500',
   },
+  {
+    id: 10,
+    title: 'SIGNATURE EXCLUSIVE',
+    image: RUDRASIGNATUREEXCLUSIVE,
+    RudraSignatureMassage: [
+      {
+        id: 0,
+        title: 'RUDRA SIGNATURE EXCLUSIVE',
+        description:
+          'A complete rejuvenating a massage, which hydrates, exfoliates and 6 . nourished the body whllst contouring It at the same time. The tissue  and fatty areas that are kneaded into shape. Subsequent friction with worming scrubs, hot towels and a hot mild soak re-texturize the skin. Hydrotherapy aids the detoxification process.',
+        image: RUDRASIGNATUREEXCLUSIVE,
+        duration: '60 minutes',
+        price: '3200',
+      },
+      {
+        id: 1,
+        title: 'RUDRA DESRT FLOWER',
+        description:
+          'A complete rejuvenating a massage, which hydrates, exfoliates and 6 . nourished the body whllst contouring It at the same time. The tissue  and fatty areas that are kneaded into shape. Subsequent friction with worming scrubs, hot towels and a hot mild soak re-texturize the skin. Hydrotherapy aids the detoxification process.',
+        image: RUDRADESRTFLOWER,
+        duration: '90 minutes',
+        price: '3800',
+      },
+      {
+        id: 2,
+        title: 'RUDRA CHOCOLATE BOOM',
+        description:
+          'After years of being incorrectly blamed for causing acne, chocolate has redeemed itself as the new skin savior at spas around the world. Classic confection brands . often market thelr own massage creams and treatments alongside off-brands with a basic cocoa base. Chocolate spa treatments include basic massages with a cocoa-based cream or oil, hot oil rubs, chocolate waxes and facials, while commercial products Incorporate cocoa Into everything from hand creams to lip gloss.',
+        image: RUDRACHOCOLATEBOOM,
+        duration: '90 minutes',
+        price: '4500',
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: 'COUPLE MASSAGE',
+    image: RelaxingCouple,
+    CoupleMassage: [
+      {
+        id: 0,
+        title: 'RELAXING COUPLE MASSAGE',
+        Women: 'WOMEN: JASMIN MASSAGE OIL',
+        WomenDescription:
+          'Massage reduce the stress hormones cortisol In the body which helps fo lift Duration - 90 minutes moods and lower blood pressure. the aromatic effect of jasmine oil stimulates the release of certain hormones in the body including serotonin, which result Massage Steam, Srcub & Shower In the boost of energy and the uplifted mood.',
+        Men: 'MEN: SANDALWOOD MASSAGE OIL',
+        MenDescription:
+          'Take care of your body it the only place have to live. sandalwood massage oil is done that can help you to achieve more clarity and calmness due to its extensive therapeutic benefits. the essential oil improve and maintain good nerve health help heal by promoting growth of new tissue.',
+        image: RelaxingCouple,
+        duration: '90 minutes',
+        price: '3650',
+      },
+      {
+        id: 1,
+        title: 'PRINCE / PRINCESS HEAVENLY TOUCH ',
+        Women: 'WOMEN: CHOCOLATE PUMICE SCRUB',
+        WomenDescription:
+          'Crave out sometime for a massage with chocolate pumice scrub which is Massage Steam, Srcub & Shower made of pumice scrub in a cream base which provides scrubbing and molsturlzing.',
+        Men: 'MEN : CHOCOLATE PUMICE SCRUB',
+        MenDescription:
+          'Energize your body, stimulate your mind and calm your soul with organic sugar scrub. using a sugar for exfoliation involves rubbing the sugar against your skin and the pressure.',
+        image: PrinceCoupleMassage,
+        duration: '90 minutes',
+        price: '3650',
+      },
+    ],
+  },
 ];
 
-export const RudraSignatureMassage = [
-  {
-    id: 0,
-    title: 'RUDRA SIGNATURE EXCLUSIVE',
-    description:
-      'A complete rejuvenating a massage, which hydrates, exfoliates and 6 . nourished the body whllst contouring It at the same time. The tissue  and fatty areas that are kneaded into shape. Subsequent friction with worming scrubs, hot towels and a hot mild soak re-texturize the skin. Hydrotherapy aids the detoxification process.',
-    image: RUDRASIGNATUREEXCLUSIVE,
-    duration: '60 minutes',
-    price: '3200',
-  },
-  {
-    id: 1,
-    title: 'RUDRA DESRT FLOWER',
-    description:
-      'A complete rejuvenating a massage, which hydrates, exfoliates and 6 . nourished the body whllst contouring It at the same time. The tissue  and fatty areas that are kneaded into shape. Subsequent friction with worming scrubs, hot towels and a hot mild soak re-texturize the skin. Hydrotherapy aids the detoxification process.',
-    image: RUDRADESRTFLOWER,
-    duration: '90 minutes',
-    price: '3800',
-  },
-  {
-    id: 2,
-    title: 'RUDRA CHOCOLATE BOOM',
-    description:
-      'After years of being incorrectly blamed for causing acne, chocolate has redeemed itself as the new skin savior at spas around the world. Classic confection brands . often market thelr own massage creams and treatments alongside off-brands with a basic cocoa base. Chocolate spa treatments include basic massages with a cocoa-based cream or oil, hot oil rubs, chocolate waxes and facials, while commercial products Incorporate cocoa Into everything from hand creams to lip gloss.',
-    image: RUDRACHOCOLATEBOOM,
-    duration: '90 minutes',
-    price: '4500',
-  },
-];
-export const CoupleMassage = [
-  {
-    id: 0,
-    title: 'RELAXING COUPLE MASSAGE',
-    Women: 'WOMEN: JASMIN MASSAGE OIL',
-    WomenDescription:
-      'Massage reduce the stress hormones cortisol In the body which helps fo lift Duration - 90 minutes moods and lower blood pressure. the aromatic effect of jasmine oil stimulates the release of certain hormones in the body including serotonin, which result Massage Steam, Srcub & Shower In the boost of energy and the uplifted mood.',
-    Men: 'MEN: SANDALWOOD MASSAGE OIL',
-    MenDescription:
-      'Take care of your body it the only place have to live. sandalwood massage oil is done that can help you to achieve more clarity and calmness due to its extensive therapeutic benefits. the essential oil improve and maintain good nerve health help heal by promoting growth of new tissue.',
-    image: RelaxingCouple,
-    duration: '90 minutes',
-    price: '3650',
-  },
-  {
-    id: 1,
-    title: 'PRINCE / PRINCESS HEAVENLY TOUCH ',
-    Women: 'WOMEN: CHOCOLATE PUMICE SCRUB',
-    WomenDescription:
-      'Crave out sometime for a massage with chocolate pumice scrub which is Massage Steam, Srcub & Shower made of pumice scrub in a cream base which provides scrubbing and molsturlzing.',
-    Men: 'MEN : CHOCOLATE PUMICE SCRUB',
-    MenDescription:
-      'Energize your body, stimulate your mind and calm your soul with organic sugar scrub. using a sugar for exfoliation involves rubbing the sugar against your skin and the pressure.',
-    image: PrinceCoupleMassage,
-    duration: '90 minutes',
-    price: '3650',
-  },
-];
+// export const CoupleMassage = [
+//   {
+//     id: 0,
+//     title: 'RELAXING COUPLE MASSAGE',
+//     Women: 'WOMEN: JASMIN MASSAGE OIL',
+//     WomenDescription:
+//       'Massage reduce the stress hormones cortisol In the body which helps fo lift Duration - 90 minutes moods and lower blood pressure. the aromatic effect of jasmine oil stimulates the release of certain hormones in the body including serotonin, which result Massage Steam, Srcub & Shower In the boost of energy and the uplifted mood.',
+//     Men: 'MEN: SANDALWOOD MASSAGE OIL',
+//     MenDescription:
+//       'Take care of your body it the only place have to live. sandalwood massage oil is done that can help you to achieve more clarity and calmness due to its extensive therapeutic benefits. the essential oil improve and maintain good nerve health help heal by promoting growth of new tissue.',
+//     image: RelaxingCouple,
+//     duration: '90 minutes',
+//     price: '3650',
+//   },
+//   {
+//     id: 1,
+//     title: 'PRINCE / PRINCESS HEAVENLY TOUCH ',
+//     Women: 'WOMEN: CHOCOLATE PUMICE SCRUB',
+//     WomenDescription:
+//       'Crave out sometime for a massage with chocolate pumice scrub which is Massage Steam, Srcub & Shower made of pumice scrub in a cream base which provides scrubbing and molsturlzing.',
+//     Men: 'MEN : CHOCOLATE PUMICE SCRUB',
+//     MenDescription:
+//       'Energize your body, stimulate your mind and calm your soul with organic sugar scrub. using a sugar for exfoliation involves rubbing the sugar against your skin and the pressure.',
+//     image: PrinceCoupleMassage,
+//     duration: '90 minutes',
+//     price: '3650',
+//   },
+// ];

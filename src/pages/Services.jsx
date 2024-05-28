@@ -15,7 +15,15 @@ export default function Services() {
       </div>
       <div className='grid grid-cols-3 gap-10 '>
         {ServiceData.map(
-          ({ id, title, description, image, duration, price }) => (
+          ({
+            id,
+            title,
+            description,
+            image,
+            duration,
+            price,
+            RudraSignatureMassage,
+          }) => (
             <ServiceCard
               key={id}
               id={id}
@@ -24,6 +32,7 @@ export default function Services() {
               image={image}
               duration={duration}
               price={price}
+              RudraSignatureMassage={RudraSignatureMassage}
             />
           )
         )}
