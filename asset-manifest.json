@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2a4259c.css",
+    "main.js": "/static/js/main.8126a000.js",
+    "static/media/Rudra Hammam Spa.png": "/static/media/Rudra Hammam Spa.42dc6116e985455ee09b.png",
+    "static/media/patner.png": "/static/media/patner.4e8e23c63cefebf94b04.png",
+    "static/media/about.png": "/static/media/about.dc79cc8f72fd7c57c741.png",
+    "static/media/logo.png": "/static/media/logo.73ec23af52b04f65a170.png",
+    "static/media/contact.jpg": "/static/media/contact.6398cd8cd373ca386825.jpg",
+    "static/media/RUDRACHOCOLATEBOOM.jpg": "/static/media/RUDRACHOCOLATEBOOM.9c992ed5b4f4f20ad26b.jpg",
+    "static/media/RUDRASIGNATUREEXCLUSIVE.jpg": "/static/media/RUDRASIGNATUREEXCLUSIVE.95107446202665f61087.jpg",
+    "static/media/Aromatherapy.jpg": "/static/media/Aromatherapy.59c1113ba562f50a2a74.jpg",
+    "static/media/thai.jpg": "/static/media/thai.42176368753c3bb67558.jpg",
+    "static/media/PrinceCoupleMassage.jpg": "/static/media/PrinceCoupleMassage.883b7bd5eee641b22a1e.jpg",
+    "static/media/Swedish.jpg": "/static/media/Swedish.1d5f2a3e0786ec8b8451.jpg",
+    "static/media/Ballnese.jpg": "/static/media/Ballnese.a7cc88a5cab98d9d6f8f.jpg",
+    "static/media/deepTissue.jpg": "/static/media/deepTissue.16eb81b5bfbe77f43e44.jpg",
+    "static/media/headMassage.jpg": "/static/media/headMassage.16ecc3295f9c698cf442.jpg",
+    "static/media/LomiLomi.jpg": "/static/media/LomiLomi.98246876fbd798d7e402.jpg",
+    "static/media/RUDRADESRTFLOWER.jpg": "/static/media/RUDRADESRTFLOWER.e8d00fb62db589107a4a.jpg",
+    "static/media/footR.jpg": "/static/media/footR.6f6be8d448acecbe8702.jpg",
+    "static/media/SportsMassage.jpg": "/static/media/SportsMassage.fb10585633470fcda6f4.jpg",
+    "static/media/HolisticSwedish.jpg": "/static/media/HolisticSwedish.b0f2dd17802b5cd694b0.jpg",
+    "static/media/RelaxingCouple.jpg": "/static/media/RelaxingCouple.d551e45ee5cea3332106.jpg",
+    "index.html": "/index.html",
+    "main.d2a4259c.css.map": "/static/css/main.d2a4259c.css.map",
+    "main.8126a000.js.map": "/static/js/main.8126a000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a4259c.css",
+    "static/js/main.8126a000.js"
+  ]
+}
