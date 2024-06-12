@@ -1,42 +1,34 @@
-import AboutImg from '../assets/about.png';
 
-const AboutUs = () => {
+
+import React from 'react';
+
+import { aboutData } from '../data';
+
+const PhilosophySection = () => {
   return (
-    <>
-      <h1 className='flex justify-start items-start p-5 font-semibold text-primary-bg-color underline text-xl'>
-        About Us
-      </h1>
-      <div className='grid grid-cols-2 min-h-[80vh] font-Poppins'>
-        <div
-          className='flex
-          justify-center
-          items-center
-          px-10'>
-          <h1 className='flex justify-center items-center  text-md  '>
-            The daily grind of work and personal life needs takes a toll on your
-            body and mind. A regular self-care routine helps you unwind, relax
-            and re-energize. Rudra Spa therapies will help keep your body
-            running smoothly, so you can run that half marathon or that whole
-            day of meetings. At Rudra Thai Spa experience holistic wellness
-            services based on the traditional principles of healing and
-            wellbeing.
-          </h1>
+    <section className="flex flex-col bg-gray-100 p-6 md:p-12 space-y-0">
+      {aboutData.map((section, index) => (
+        <div className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`} key={index}>
+          <div className="md:w-1/2 p-6 flex justify-center">
+            <img 
+              src={section.imgSrc} 
+              alt={section.imgAlt} 
+              className="w-full h-auto md:max-w-lg max-w-screen-lg rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="md:w-1/2 text-center md:text-left p-6">
+            <h2 className="text-3xl font-bold mb-4 text-primary-bg-color">{section.title}</h2>
+            {section.text.map((paragraph, idx) => (
+              <p key={idx} className="mb-4 text-gray-700 text-justify">{paragraph}</p>
+            ))}
+          </div>
         </div>
-
-        <div
-          className='flex
-          justify-center
-          items-center
-          px-10'>
-          <img
-            src={AboutImg}
-            alt=''
-            className='w-full h-3/4 object-cover rounded-md'
-          />
-        </div>
-      </div>
-    </>
+      ))}
+    </section>
   );
-};
+}
 
-export default AboutUs;
+export default PhilosophySection;
+
+
+

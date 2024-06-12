@@ -1,12 +1,17 @@
+
+
+
 import React from 'react';
 import { Image } from '../assets/Image';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
-    <div className=' bg-white mb-10'>
+    <div className='bg-white mb-10'>
       <div className='flex flex-col justify-around items-center space-y-10'>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center w-full'>
           <Carousel
             infiniteLoop
             autoPlay
@@ -16,33 +21,35 @@ const Home = () => {
             showArrows={false}
             showStatus={false}
             interval={3500}
-            transitionTime={2000}>
+            transitionTime={2000}
+            className='w-full'
+          >
             <img
               alt='B1'
-              className=' h-[100%] w-[100%] object-contain'
+              className='h-[100%] w-[100%] object-contain'
               src={Image.b1}
             />
             <img
               alt='B1'
-              className=' h-[100%] w-[100%] object-contain'
+              className='h-[100%] w-[100%] object-contain'
               src={Image.b1}
             />
             <img
               alt='B1'
-              className=' h-[100%] w-[100%] object-contain'
+              className='h-[100%] w-[100%] object-contain'
               src={Image.b1}
             />
           </Carousel>
         </div>
-        <div className=' w-[88%] flex justify-between'>
-          <div className='w-[55%]'>
-            <h1 className=' text-xl font-semibold font-Poppins text-primary-bg-color uppercase underline underline-offset-8 '>
-              <span className=' text-secondary-text-color font-bold'>
+        <div className='w-[88%] flex flex-col lg:flex-row justify-between space-y-10 lg:space-y-0'>
+          <div className='lg:w-[55%]'>
+            <h1 className='text-xl font-semibold font-Poppins text-primary-bg-color uppercase underline underline-offset-8'>
+              <span className='text-secondary-text-color font-bold'>
                 WELCOME TO
               </span>
               &nbsp; RUDRA HAMMAM & SPA
             </h1>
-            <p className=' text-md font-light font-Poppins mt-5 w-3/4 text-gray-500 text-justify'>
+            <p className='text-md font-light font-Poppins mt-5 lg:w-3/4 text-gray-500 text-justify'>
               Named after the sacred source of inspiration, Rudra Hammam Spa has
               been founded to bring to you the immense benefits of Ayurveda; the
               ancient Indian system of healing, and the traditional Thai massage
@@ -63,27 +70,31 @@ const Home = () => {
               reflexology experience to customers as offered in the USA.
             </p>
             <div className='flex items-center gap-5 mt-5'>
+              <Link to='/service'>
               <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
                 Explore
               </button>
-              <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
+              </Link>
+              <Link to= '/contact'>
+              <button  className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
                 Contact
               </button>
+              </Link>
             </div>
           </div>
-          <div className='w-[45%] space-y-4'>
-            <h1 className=' text-xl font-semibold font-Poppins text-primary-bg-color underline underline-offset-8 '>
-              <span className=' text-secondary-text-color font-bold'>
+          <div className='lg:w-[45%] space-y-4'>
+            <h1 className='text-xl font-semibold font-Poppins text-primary-bg-color underline underline-offset-8'>
+              <span className='text-secondary-text-color font-bold'>
                 Franchise Opportunities
               </span>
             </h1>
             <img
               alt='B1'
-              className=' object-contain w-full '
+              className='object-contain w-full'
               src={Image.partner}
             />
-            <p className=' text-md font-light font-Poppins text-gray-500 text-justify'>
-              <span className=' font-semibold text-base'>
+            <p className='text-md font-light font-Poppins text-gray-500 text-justify'>
+              <span className='font-semibold text-base'>
                 Explore the opportunity to spa franchise with Rudra Hammam &
                 Spa.
               </span>
@@ -91,7 +102,7 @@ const Home = () => {
               Invest in India’s Fastest Growing Spa Chain Franchise Opportunity.
               Most profitable business with minimum investment <br /> <br />
               We have largest spa franchise network across all India including
-              states like Uttar Pradesh, Jharkhand, Madhya Pradesh,Rajasthan,
+              states like Uttar Pradesh, Jharkhand, Madhya Pradesh, Rajasthan,
               Punjab, Maharashtra, Telangana, Chennai, Karnataka, Andhra
               Pradesh.
             </p>

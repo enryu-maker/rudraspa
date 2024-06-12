@@ -14,6 +14,88 @@ import RUDRADESRTFLOWER from './assets/RUDRADESRTFLOWER.jpg';
 import RUDRACHOCOLATEBOOM from './assets/RUDRACHOCOLATEBOOM.jpg';
 import RelaxingCouple from './assets/RelaxingCouple.jpg';
 import PrinceCoupleMassage from './assets/PrinceCoupleMassage.jpg';
+import Headmassage from '../src/assets/service/HeadMassage.png'
+import neckmassage from '../src/assets/service/neckmassage.png'
+import foot from '../src/assets/service/mfoot.png'
+import holistic from '../src/assets/service/mholistic.png'
+import lomy from '../src/assets/service/lomy.png'
+import sports from '../src/assets/service/sports.png'
+import deep from '../src/assets/service/deep.png'
+import poltim from '../src/assets/service/poltim.png'
+import facial from '../src/assets/service/facial.png'
+import treatment from '../src/assets/service/treatment.png'
+import balinese from '../src/assets/service/mbalinese.png'
+
+
+import Philosophy from '../src/assets/service/about1.jpeg';
+
+
+import philosophy from '../src/assets/philosophy.jpeg';
+import introduction from '../src/assets/introimg.webp';
+import rudraspa from '../src/assets/rudraspa.png'
+import mission from '../src/assets/service/mission.jpeg'
+import touch from '../src/assets/service/touch.webp'
+
+
+export const massageServicesData = {
+Headmassage, neckmassage, foot, holistic, lomy, sports, deep , poltim, facial, treatment, balinese,
+Philosophy
+
+}
+
+
+
+export const aboutData = [
+  {
+    title: "OUR PHILOSOPHY",
+    text: [
+      "At Rudra Hammam Spa, we embrace the philosophy of 'poorna saukhyam' – complete bliss, in contrast to mere quick-fix solutions. We firmly believe that true well-being can only be attained when an individual achieves harmony in their mind, body, soul, and spirit. Addressing one aspect without considering the others may provide temporary relief, but it won't lead to a lasting and holistic cure. In the context of this profound life science, we find the term 'medicine' somewhat limiting, as it implies healing only in response to a predefined illness. Our approach transcends this narrow definition, focusing on overall wellness and the pursuit of complete and enduring well-being.",
+      "Our foremost mission at Rudra Hammam Spa is to guide you on the path to achieving 'poorna saukhyam' through our meticulously curated holistic health and well-being packages. With a thoughtfully designed sattvic diet regimen, the transformative power of yoga and meditation, and the therapeutic embrace of Indian and Thai massage therapies, we elevate your wellness experience to an entirely new realm. The result is a sense of profound rebirth, revitalization, and rejuvenation that emanates from within, leaving you utterly transformed."
+    ],
+    imgSrc: philosophy,
+    imgAlt: "Philosophy Image"
+  },
+  {
+    title: "INTRODUCTION",
+    text: [
+      "Named after the sacred source of inspiration, Rudra Hammam Spa has been founded to bring to you the immense benefits of Ayurveda; the ancient Indian system of healing, and the traditional Thai massage therapies, all at affordable prices. We offer comprehensive holistic & wellness treatments with a blend of Indian & Thai culture, combined with body purification techniques, body scrubs & slimming packages, amongst other services, that relax, refresh & rejuvenate you completely, thoroughly, and from within.",
+      "Rudra Hammam Spa embodies a groundbreaking concept in the Indian spa & salon industry: offering a pool of talented professionals the opportunity to breathe life into their passion and establish a platform for your business within the untapped and largely self-sufficient US $500 Million Spa & Salon Industry.",
+      "Rudra Hammam Spa is proud to introduce the first-ever Authentic traditional Thai foot reflexology treatments in the heart of Ahmedabad through our Xpress model. Soon, you'll witness this model expanding to cities across the country, with the aim of providing the same Thai reflexology experience to customers as offered in the USA."
+    ],
+    imgSrc: introduction,
+    imgAlt: "Introduction Image"
+  },
+  {
+    title: "OUR MISSION",
+    text: [
+      "It is our mission that spending time at Rudra Hammam & Spa will be a discovery of peace and harmony, not only between the past and present but also within yourself."
+    ],
+    imgSrc: mission,
+    imgAlt: "Mission Image"
+  },
+  {
+    title: "THE RUDRA TOUCH",
+    text: [
+      "The blissful and luxury Rudra Signature massage is an exclusive massage treatment that combines eastern philosophy with western techniques. Let the finest of exotic aroma oils, honey, and milk nourish and revitalize your skin."
+    ],
+    imgSrc: touch,
+    imgAlt: "Rudra Touch Image"
+  },
+  {
+    title: "BOARD OF DIRECTOR",
+    text: [
+      "Mr. Ishwar Nerkar (Managing Director)",
+      "A young dynamic entrepreneur with various professional degrees, hailing from a very well-known family of Sidha & Ayurveda healing tradition of Trichur, Kerala, the hub of Ayurveda, decided to uphold the traditional inherited art, respect, and integrity of the family by choosing the way of hospitality and the principles of Ayurveda and its applications secured from great masters and ancestors. At the age of 31, he engaged as the Managing Director of “Rudra SPA,” the established brand of Messrs. Ancient Healing Wellness (P) Ltd., with an ambition to promote the concept of SPA and the wellness therapies in every town, city, metro, and cosmopolitan city of our country and make everyone feel “Relax, Refresh and Rejuvenate” by rendering quality services to the needy."
+    ],
+    imgSrc: rudraspa,
+    imgAlt: "Director Image"
+  }
+];
+
+
+
+
+
 
 export const ServiceData = [
   {
