@@ -84,7 +84,7 @@ export const aboutData = [
   {
     title: "BOARD OF DIRECTOR",
     text: [
-      "Mr. Ishwar Nerkar (Managing Director)",
+      "Mr. Ishwar Nerkar (Managing Director-Nashik)",
       "A young dynamic entrepreneur with various professional degrees, hailing from a very well-known family of Sidha & Ayurveda healing tradition of Trichur, Kerala, the hub of Ayurveda, decided to uphold the traditional inherited art, respect, and integrity of the family by choosing the way of hospitality and the principles of Ayurveda and its applications secured from great masters and ancestors. At the age of 31, he engaged as the Managing Director of “Rudra Hammam & Spa,” the established brand of Messrs. Ancient Healing Wellness (P) Ltd., with an ambition to promote the concept of SPA and the wellness therapies in every town, city, metro, and cosmopolitan city of our country and make everyone feel “Relax, Refresh and Rejuvenate” by rendering quality services to the needy."
     ],
     imgSrc: rudraspa,
@@ -93,7 +93,7 @@ export const aboutData = [
   {
     title: "BOARD OF DIRECTOR",
     text: [
-      "Mr. Yogesh B. Kotwal (Managing Director)",
+      "Mr. Yogesh B. Kotwal (Managing Director-Mumbai)",
       "Mr. Yogesh B. Kotwal is a visionary leader and accomplished entrepreneur with a strong foundation in business management and strategic growth. With a deep passion for wellness and customer-centric services, he has consistently demonstrated excellence in leadership and innovation."
     ],
     imgSrc: rudraspa,
@@ -102,12 +102,21 @@ export const aboutData = [
   {
     title: "BOARD OF DIRECTOR",
     text: [
-      "Ms. Urmila H. Ambekar (Managing Director)",
+      "Ms. Urmila H. Ambekar (Managing Director-Nashik)",
       "Ms. Urmila H. Ambekar is a dedicated and forward-thinking professional with a strong passion for wellness and holistic healing. With a deep-rooted belief in the transformative power of Ayurveda and natural therapies, she brings both compassion and strategic insight to her role as Director at Rudra Hammam SPA, a prestigious brand under Agastya Healing Care Pvt. Ltd."
     ],
     imgSrc: rudraspa,
     imgAlt: "Director Image"
-  }
+  },
+  {
+    title: "BOARD OF DIRECTOR",
+    text: [
+      "Mr. Shivam Gope  (Managing Director-Kolkata)",
+      "Mr. Shivam Gope is a passionate and driven professional who brings youthful energy and a fresh perspective to the wellness and spa industry. As a Director at Rudra Hammam SPA, under the esteemed banner of Agastya Healing Care Pvt. Ltd., he plays a key role in operational management and strategic development."
+    ],
+    imgSrc: rudraspa,
+    imgAlt: "Director Image"
+  },
 ];
 
 
