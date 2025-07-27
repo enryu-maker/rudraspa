@@ -27,7 +27,7 @@ const Header = () => {
     <>
       <div className='flex items-center justify-between px-10 bg-white sticky top-0 z-50 shadow-md'>
         <div className='flex items-center justify-center p-2'>
-          <img src={Logo} alt='logo' className='w-20 h-20 object-contain' />
+          <img src={Logo} alt='logo' className='md:w-20 w-14 md:h-20 h-14 object-contain' />
         </div>
         <div className='space-y-5'>
           <div className='flex items-center justify-end gap-5 self-end'>
@@ -48,7 +48,7 @@ const Header = () => {
             </div>
 
             <button
-              className='md:hidden text-primary-text-color'
+              className='md:hidden text-3xl text-primary-text-color'
               onClick={toggleMobileMenu}
             >
               {!isMobileMenuOpen ? '☰' : '✖'}
@@ -56,7 +56,7 @@ const Header = () => {
           </div>
 
           {isMobileMenuOpen && (
-            <div className='md:hidden py-10 flex flex-col items-end gap-2'>
+            <div className='md:hidden py-2 flex flex-col items-end gap-2'>
               {NavLinkData.map(({ title, path }) => (
                 <NavLink
                   key={title}
