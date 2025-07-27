@@ -31,15 +31,14 @@ const Header = () => {
         </div>
         <div className='space-y-5'>
           <div className='flex items-center justify-end gap-5 self-end'>
-           
+
             <div className='hidden md:flex items-center justify-end gap-5'>
               {NavLinkData.map(({ title, path }) => (
                 <NavLink
                   key={title}
                   to={path}
                   className={({ isActive }) =>
-                    `uppercase tracking-widest font-semibold font-Poppins text-sm ${
-                      isActive ? 'text-primary-bg-color' : 'text-slate-600 hover:text-primary-bg-color'
+                    `uppercase tracking-widest font-semibold font-Poppins text-sm ${isActive ? 'text-primary-bg-color' : 'text-slate-600 hover:text-primary-bg-color'
                     }`
                   }
                 >
@@ -63,8 +62,7 @@ const Header = () => {
                   key={title}
                   to={path}
                   className={({ isActive }) =>
-                    `uppercase tracking-widest font-semibold font-Poppins text-sm ${
-                      isActive ? 'text-primary-bg-color' : 'text-slate-600 hover:text-primary-bg-color'
+                    `uppercase tracking-widest font-semibold font-Poppins text-sm ${isActive ? 'text-primary-bg-color' : 'text-slate-600 hover:text-primary-bg-color'
                     }`
                   }
                   onClick={toggleMobileMenu}
@@ -75,14 +73,16 @@ const Header = () => {
             </div>
           )}
 
-        
+
           <motion.p className='text-sm font-semibold font-Poppins text-black hidden md:block'>
             FOR MASTER FRANCHISE / FRANCHISE INQUIRY CONTACT : PHONE :{' '}
-            <span className='text-primary-bg-color'>+91 90338 35777 </span> |
+            <a
+              href="tel:+918329419201"
+              className='text-primary-bg-color'>+91 8329419201</a> |
             EMAIL US :{' '}
-            <span className='text-primary-bg-color'>
-              franchise@rudrahammamspa.in
-            </span>
+            <a href='mailto:info@rudrahammamspa.com' className='text-primary-bg-color'>
+              info@rudrahammamspa.com
+            </a>
           </motion.p>
         </div>
       </div>

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className='bg-white mb-10'>
+    <div className='bg-white mb-10 font-Poppins'>
       <div className='flex flex-col justify-around items-center space-y-10'>
         <div className='flex justify-center items-center w-full'>
           <Carousel
@@ -71,14 +71,14 @@ const Home = () => {
             </p>
             <div className='flex items-center gap-5 mt-5'>
               <Link to='/service'>
-              <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
-                Explore
-              </button>
+                <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
+                  Explore
+                </button>
               </Link>
-              <Link to= '/contact'>
-              <button  className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
-                Contact
-              </button>
+              <Link to='/contact'>
+                <button className='uppercase bg-secondary-text-color font-Poppins font-semibold text-white p-3 rounded-md hover:bg-primary-bg-color hover:text-black transition-all duration-100 delay-75 ease-linear'>
+                  Contact
+                </button>
               </Link>
             </div>
           </div>

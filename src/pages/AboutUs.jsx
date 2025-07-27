@@ -6,13 +6,13 @@ import { aboutData } from '../data';
 
 const PhilosophySection = () => {
   return (
-    <section className="flex flex-col bg-gray-100 p-6 md:p-12 space-y-0">
+    <section className="flex flex-col bg-gray-100 p-6 md:p-12 space-y-0 font-Poppins">
       {aboutData.map((section, index) => (
         <div className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`} key={index}>
           <div className="md:w-1/2 p-6 flex justify-center">
-            <img 
-              src={section.imgSrc} 
-              alt={section.imgAlt} 
+            <img
+              src={section.imgSrc}
+              alt={section.imgAlt}
               className="w-full h-auto md:max-w-lg max-w-screen-lg rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             />
           </div>

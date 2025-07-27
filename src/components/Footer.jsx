@@ -4,76 +4,90 @@ import { NavLink } from 'react-router-dom';
 import { Image } from '../assets/Image';
 
 const OurService = [
-  {
-    title: 'Hammam Massage',
-    path: '/service',
-  },
-  {
-    title: 'Aroma',
-    path: '/service',
-  },
-  {
-    title: 'Swedish',
-    path: '/service',
-  },
-  {
-    title: 'Deep tissue',
-    path: '/service',
-  },
+  { title: 'Hammam Massage', path: '/service' },
+  { title: 'Aroma', path: '/service' },
+  { title: 'Swedish', path: '/service' },
+  { title: 'Deep Tissue', path: '/service' },
 ];
 
 const Footer = () => {
   return (
-    <div className='container bg-primary-bg-color mx-auto pt-20'>
-      <div className='max-w-7xl mx-auto flex flex-col justify-evenly items-center'>
-        <div className='grid grid-cols-1  sm:grid-cols-3 gap-10 min-h-[50vh]    opacity-70 px-5'>
+    <div className="w-full bg-primary-bg-color pt-20">
+      <div className="container mx-auto px-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 opacity-90 ">
 
-          <div className='flex flex-col gap-5 items-start'>
-            <h1 className='text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
+          {/* Important Links */}
+          <div>
+            <h1 className="text-2xl font-Poppins font-semibold text-secondary-text-color uppercase mb-4">
               Important Links
             </h1>
-            {NavLinkData.map(({ title, path }) => (
-              <NavLink
-                key={title}
-                to={path}
-                className='uppercase font-semibold font-Poppins text-lg text-black hover:text-white'>
-                {title}
-              </NavLink>
-            ))}
-          </div>
-
-
-          <div className='flex flex-col gap-5 items-start'>
-            <h1 className='text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
-              Our Services
-            </h1>
-            <div className='flex flex-col gap-5 items-start'>
-              {OurService.map(({ title, path }) => (
+            <div className="flex flex-col gap-3">
+              {NavLinkData.map(({ title, path }) => (
                 <NavLink
                   key={title}
                   to={path}
-                  className='uppercase font-semibold font-Poppins text-lg text-black hover:text-white'>
+                  className="uppercase font-medium font-Poppins text-lg text-black hover:text-white"
+                >
                   {title}
                 </NavLink>
               ))}
             </div>
           </div>
 
-
-          <div className='flex flex-col gap-5 items-start'>
-            <h1 className='text-2xl font-Poppins font-bold text-secondary-text-color uppercase'>
-              Franchise Contact
+          {/* Our Services */}
+          <div>
+            <h1 className="text-2xl font-Poppins font-semibold text-secondary-text-color uppercase mb-4">
+              Our Services
             </h1>
-            <div className='flex flex-col gap-5 items-start'>
-              <a className='uppercase font-semibold font-Poppins text-lg text-black hover:text-white' href="">number</a>
-              <a className='uppercase font-semibold font-Poppins text-lg text-black hover:text-white' href="">email</a>
-
+            <div className="flex flex-col gap-3">
+              {OurService.map(({ title, path }) => (
+                <NavLink
+                  key={title}
+                  to={path}
+                  className="uppercase font-medium font-Poppins text-lg text-black hover:text-white"
+                >
+                  {title}
+                </NavLink>
+              ))}
             </div>
           </div>
-          <img src={Image.nt} className='self-center' />
+
+          {/* Franchise Contact */}
+          <div>
+            <h1 className="text-2xl font-Poppins font-semibold text-secondary-text-color uppercase mb-4">
+              Franchise Contact
+            </h1>
+            <div className="flex flex-col gap-3">
+              <a
+                href="tel:+918329419201"
+                className="uppercase font-medium font-Poppins text-lg text-black hover:text-white"
+              >
+                Number: +91 83294 19201
+              </a>
+              <a
+                href="mailto:franchise@rudrahammamspa.in"
+                className="uppercase font-medium font-Poppins text-lg text-black hover:text-white"
+              >
+                Email: info@rudrahammamspa.com
+              </a>
+            </div>
+          </div>
+
+          {/* Image or Logo */}
+
         </div>
-      </div>
-    </div>
+        <div className="flex items-center justify-center font-Poppins ">
+          Made with ❤️ by
+          <a
+            href="www.nerdtech.in"
+            className="text-secondary-text-color font-medium ml-1"
+          >
+            nerdtech LLC.
+          </a>
+        </div>
+
+      </div >
+    </div >
   );
 };
 

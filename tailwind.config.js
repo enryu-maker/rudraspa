@@ -10,7 +10,7 @@ module.exports = {
         'secondary-text-color': '#0A3200',
       },
       fontFamily: {
-        Poppins: ['Montserrat', 'sans-serif'],
+        Poppins: ['Akshar', 'sans-serif'],
       },
     },
   },
